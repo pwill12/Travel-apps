@@ -20,8 +20,8 @@ function Routess() {
         const res = await axios.get(
           from !== undefined && input2 !== undefined && date1 !== null && date2 !== null
           ?
-          `http://localhost:4000/api/findbus?from=${from}&to=${input2}&depart=${date1}&return=${date2}`
-          : "http://localhost:4000/api/findbus"
+          `https://travel-api-will.onrender.com/api/findbus?from=${from}&to=${input2}&depart=${date1}&return=${date2}`
+          : "https://travel-api-will.onrender.com/api/findbus"
         );
         setbus(res.data);
       } catch (err) {
