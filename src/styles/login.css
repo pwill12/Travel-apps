@@ -1,0 +1,235 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  max-width: 800px;
+  /* margin: 0 auto; */
+  /* margin-top: 40px; */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 20px 20px 30px rgba(237, 233, 233, 0.03);
+  /* background: #000; */
+
+}
+
+.login-containers {
+  font-family: 'Poppins', sans-serif;
+  max-width: 450px;
+  margin: 0px auto;
+  height: 70vh;
+  margin-top: 140px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 84, 84, 0.237);
+  padding: 10px 30px;
+  /* background: #000; */
+
+}
+
+.login-containers h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-containers h3 {
+  font-size: 16px;
+  /* margin: 20px 0px 30px 0px; */
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-containers .btnWraps {
+  margin-bottom: 20px;
+  color: white;
+  background-color: #FFA500;
+}
+
+.login-containers .btnWraps:hover {
+  background-color: #0056b3;
+}
+
+.login-container .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 500px; */
+  /* padding: 20px; */
+  border-radius: 5px;
+}
+
+.login-container .form-group {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container .label {
+  font-weight: bold;
+}
+
+.login-container input {
+  min-width: 250px;
+  padding: 14px;
+  border: 1px solid rgb(237, 218, 218);
+  border-radius: 3px;
+  outline: none;
+  margin: 15px 0px;
+}
+
+button {
+  background-color: #0D6EFD;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  font-family: 'Poppins', sans-serif;
+  color: #0D6EFD;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+/* */
+.login-container .btnWraps {
+  background-color: #0D6EFD;
+  color: #fff;
+  border: none;
+  padding: 12px 123px;
+  cursor: pointer;
+  border-radius: 4px;
+  grid-column: span 2;
+  font-family: 'Barlow', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.formController {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formController .chek {
+  /* display: flex; */
+  /* align-items: start; */
+  /* gap: 3px; */
+  text-align: left;
+  left: 0;
+}
+
+.formController .chek .inputs {
+  margin-right: 50px;
+  max-width: 50px;
+  background: #000;
+  /* display: flex; */
+  /* height: 15px; */
+}
+
+.formController .chek p {
+  font-size: 10px;
+  display: flex;
+  text-align: center;
+  background: #000;
+  width: 20px;
+}
+
+.login-container .checkbox {
+  display: flex;
+  gap: 1px;
+}
+
+.login-container .signup-link {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.required-field {
+  color: #DC3545;
+}
+
+.signcon{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  cursor: pointer;
+  color: #0D6EFD;
+}
+
+.signcon p:hover{
+  color: #FFA500;
+}
+
+@media (max-width: 1080px) {
+
+  /* CSS-Code; */
+  .login-containers {
+    font-family: 'Poppins', sans-serif;
+    max-width: 380px;
+    margin-bottom: 70px;
+    padding: 20px;
+    /* background: #000; */
+
+  }
+
+  .login-containers h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .signcon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    cursor: pointer;
+    color: #0D6EFD;
+  }
+}
+
+@media (max-width: 360px) {
+
+  /* CSS-Code; */
+  .login-containers {
+    font-family: 'Poppins', sans-serif;
+    max-width: 340px;
+    margin-bottom: 70px;
+    padding: 20px;
+    /* background: #000; */
+
+  }
+
+  .login-containers h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .signcon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    cursor: pointer;
+    color: #0D6EFD;
+  }
+}

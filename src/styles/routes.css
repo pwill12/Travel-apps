@@ -1,0 +1,321 @@
+.route-page {
+    background-color: #F0F0F0;
+    height: auto;
+    width: 100%;
+}
+
+.available-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 92px;
+}
+
+.routes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(88, 84, 84, 0.238);
+    background-color: white;
+    padding: 10px 92px;
+
+}
+
+.routescon {
+    display: flex;
+    /* justify-content: flex-start; */
+    justify-content: inherit;
+    width: 55%;
+    align-items: center;
+}
+
+.routes-container h1 {
+    color: #4B5563;
+    font-size: 32px;
+    font-weight: 700;
+    /* padding: 5px; */
+    margin-top: 10px;
+
+}
+
+.route-page .av {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4B5563;
+}
+
+.routes-container .routescon .routes p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B5563;
+    margin: 10px 0px;
+
+}
+
+/* .routescon .passenger p {
+    font-weight: 400;
+    font-size: 50px;
+    color: #4B5563;
+} */
+
+.passengerx {
+    font-weight: 400;
+    font-size: 17px;
+    color: #4B5563;
+}
+
+.routes-container .modify {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    width: 127px;
+    cursor: pointer;
+    border-radius: 4px;
+    grid-column: span 2;
+    font-family: 'Barlow', sans-serif;
+}
+
+.available-routes {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.available-routes .dash-available {
+    padding: 0px;
+    /* background-color: beige; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+.available-routes .dash-availables {
+    padding: 0px;
+    /* background-color: beige; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.available-routes .dash-availables  h3{
+    margin-top: 10px;
+}
+
+.available-routes .dash-available.image {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 200px;
+}
+
+
+.available-routes .dash-available.end {
+    /* justify-content: start; */
+    /* align-items: end; */
+    width: 50%;
+    margin-top: 7px;
+}
+
+.available-routes .dash-available.end .endtitle{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+}
+
+.available-routes .dash-available .title {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.available-routes .dash-available .title h2 {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.available-routes .dash-available .title span {
+    background-color: #FFA500;
+    /* color: #fff; */
+    border-radius: 100px;
+    font-size: 10px;
+    padding: 10px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.available-routes .dash-available .details {
+    /* background-color:azure; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.available-routes .dash-available .details .detail-container .sub-title {
+    /* background-color: antiquewhite; */
+    display: flex;
+    gap: 10px;
+}
+
+.available-routes .dash-available .details .detail-container p {
+    padding: 15px;
+    border-left: 1px dashed black;
+    margin: 5px 10px;
+}
+
+.available-routes .dash-available.cols .item {
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 10px;
+    margin: 5px 50px;
+
+}
+
+.available-routes .dash-available.cols .item h6 {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.available-routes .dash-available.cols .item .flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+
+
+.dash-pay .view {
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    width: 127px;
+    cursor: pointer;
+    border-radius: 4px;
+    grid-column: span 2;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+}
+
+@media(max-width: 1080px) {
+
+    .routes-container {
+        padding: 10px 10px;
+        display: flex;
+    }
+
+    .routes-container .modify {
+        background-color: #FFA500;
+        color: #fff;
+        border: none;
+        padding: 10px 0px 10px 0px;
+        width: 115px;
+        cursor: pointer;
+        border-radius: 4px;
+        grid-column: span 2;
+        font-family: 'Barlow', sans-serif;
+    }
+
+    .routescon {
+        display: flex;
+        flex-direction: column;
+        justify-content: inherit;
+        width: 50%;
+        align-items: center;
+        /* background: #000; */
+    }
+
+    .routes-container h1 {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .routes-container .routescon .routes p {
+        margin: 0px;
+    }
+
+    .available-wrapper {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .available-routes {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    .available-routes .dash-available.image {
+        display: none;
+    }
+
+    .available-routes .dash-available .title span {
+        display: none;
+    }
+
+    .available-routes .dash-available.cols{
+        /* background-color: #fff; */
+        gap: 5px;
+        padding: 0px;
+        margin-left: 29px;
+        /* background: #000; */
+    }
+
+    .available-routes .dash-available.cols .item {
+        /* background-color: #fff; */
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        padding: 0px;
+        margin: 4px;
+    }
+
+    .available-routes .dash-availables {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 29px;
+    }
+
+    .available-routes .dash-availables h3 {
+        margin-top: 5px;
+        margin: 3px 0px 0px 0px;
+    }
+
+    .available-routes .dash-available.end {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin-left: 29px; */
+        width: 100%;
+    }
+
+    .available-routes .dash-available.end .endtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

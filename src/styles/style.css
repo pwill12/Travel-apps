@@ -1,0 +1,10 @@
+.px{
+    /* padding: 0 5%; */
+}
+
+@media screen and (max-width:768px){
+    .px{
+        padding: 0px;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,28 @@
+.primBtn{
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+}
+.btnWrap{
+    /* background-color: #004FB3; */
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    padding: 12px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    grid-column: span 2;
+    font-family: 'Barlow', sans-serif;
+}
+
+@media (max-width: 1080px) {
+    .primBtn{
+        width: 200px;
+        margin: auto;
+        margin-top: 4px;
+        
+    }
+}
