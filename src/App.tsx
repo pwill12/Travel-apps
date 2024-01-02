@@ -29,8 +29,8 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/about' element={<About />} />
         <Route path='/checkout' element={<Checkout />} />
-        <Route path='/route' element={<Routess />} />
-        <Route path='/route/:id' element={<Routess />} />
+        {/* <Route path='/route' element={<Routess />} /> */}
+        <Route path='/route/:id1?/:id2?/:id3?/:id4?' element={<Routess />} />
         <Route path='/pickup' element={<Pickup />} />
       </Routes>
       </ScrollToTop>
