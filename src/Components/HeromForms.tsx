@@ -121,7 +121,7 @@ const HeroForms = () => {
                                 <p>Return</p>
                                 <ResponsiveDatePickers setdate={setdate2} />
                             </div>
-                            <button className='btnWrap' disabled={true}>
+                            <button className='btnWrap'>
                                 <Link to={'/route'+'/'+from+'/'+input2+'/'+date1?.format().slice(0,10)+'/'+date2?.format().slice(0,10)}>
                                     {bus ? bus?.length + " " + 'ride is available' : data3 ? 'no available' : 'Search Bus'}
                                 </Link>
