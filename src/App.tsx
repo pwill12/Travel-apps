@@ -30,7 +30,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/checkout' element={<Checkout />} />
         <Route path='/route' element={<Routess />} />
-        <Route path='/route/:id/:id/:id/:id' element={<Routess />} />
+        <Route path='/route/:id' element={<Routess />} />
         <Route path='/pickup' element={<Pickup />} />
       </Routes>
       </ScrollToTop>
